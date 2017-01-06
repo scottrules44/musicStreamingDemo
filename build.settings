@@ -35,5 +35,13 @@ settings =
 				"Icon-Small-50@2x.png",
 			},
 		},
-	}
+	},
+	plugins =
+	{
+		["plugin.musicStreaming"] =
+		{
+		    publisherId = "tech.scotth",
+		    supportedPlatforms = { iphone=true, android=true }
+		},
+	}, 
 }
