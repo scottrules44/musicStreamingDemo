@@ -18,7 +18,7 @@ playText:addEventListener( "tap", function (  )
 				playText.text = "Pause"
 				start = 1
 			end
-			if (e.response == "finshed") then
+			if (e.response == "finished") then
 				playText.text = "Play"
 				start = 0
 			end
