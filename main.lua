@@ -8,8 +8,6 @@ local playText = display.newText( "Play", display.contentCenterX, display.conten
 playText:addEventListener( "tap", function (  )
 	if (start == 0) then
 		musicStreaming.play(myNativeBox.text, function ( e )
-			local json = require("json")
-			json.encode(e)
 			if (e.response == "error loading song") then
 				playText.text = "Play"
 				print("error")
